@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+
+<style>
+    .box {
+        display: flex;
+        
+        /* 축의 방향 설정 */
+        flex-direction: column-reverse;
+        /* flex-direction: row-reverse; */
+        
+         /* align-self:
+        stretch가 초기 값이며, 각각 시작, 끝, 중간 정렬 가능 */
+        align-self: flex-start;
+        /* align-self: flex-end; */
+        /* align-self: flex-center; */
+        /* align-self: stretch; */
+
+        /* 최종보스 */
+        justify-content: space-between;
+        /* justify-content: space-around; */
+        /* justify-content: space-evenly; */
+        /* justify-content: stretch; */
+        /* justify-content: flex-start; */
+        /* justify-content: flex-end; */
+        /* justify-content: center; */
+    }
+
+    /* 
+    flex: flex-grow(flex항목이 넓어짐), flex-shrink(좁아짐), 
+    flex-basis(넓어지거나 좁아짐) 순으로 설정
+    결국에 flex-basis만 써도 됨.
+     */
+    .one{
+        flex: 1 -1 auto;
+    }
+    .two{
+        flex: 2;
+    }
+
+    .three{
+        flex: 1;
+    }
+</style>
+
+
+</head>
+<body>
+
+<div class="box">
+    <div class="one">one</div>
+    <div class="two">two</div>
+    <div class="three">three
+        <br>has
+        <br>extra
+        <br>text
+    </div>
+</div>
+    
+</body>
+</html>
