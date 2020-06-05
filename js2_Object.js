@@ -30,6 +30,7 @@ Object.keys(obj).forEach(function(key){
     console.log(obj[key]);
 })
 
+//-----////-----////-----////-----////-----////-----////-----////-----////-----//
 
 // 실습1: 숫자 타입으로만 구성된 요소를 뽑아 배열을 만들어보세요
 const data = {
@@ -60,12 +61,9 @@ const data = {
 }
 
 
-
 Object.keys(data).forEach(function(key){
 console.log(data[key]);
 })
-
-
 
 
 // 실습2: type이 sk인, name으로 구성된 배열 출력
