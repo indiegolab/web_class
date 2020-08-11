@@ -1,0 +1,16 @@
+li{
+    list-style:none;
+    font-size:1.4em;
+    margin-bottom:10px;
+  }
+  .red{
+    color:#f00;
+  }
+  
+  .blue{
+    color:#00f;
+  }
+  
+  .green{
+    color:#0f0;
+  }
